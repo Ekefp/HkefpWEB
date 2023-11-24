@@ -1,9 +1,9 @@
 html {
-    touch-action: pan-x pan-y; 
-    height: 100%;
-  }
   
-  body {overflow: hidden}
+  height: 100%;
+}
+
+
   
   .blink { animation: blink 2.5s linear infinite; }
   @keyframes blink { 50% {opacity: 0;}}
@@ -34,4 +34,18 @@ html {
     color: #000000;
     text-decoration: none;
   }
+
+img {
+  /* border-radius: 6px; */
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
   
